@@ -19,9 +19,15 @@
         {% for todo in todo_list %}
         <div class="ui segment">
             <p class="ui big header">{{todo.id }} | {{ todo.title }}</p>
+
         </div>
         {% endfor %}
+        <div>
+            <p>Total Page views: {{hits}}</p>
+
+        </div>
     </div>
+
 </body>
 
 </html>

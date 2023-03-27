@@ -37,7 +37,12 @@
             <a class="ui blue button" href="/update/{{ todo.id }}">Update</a>
             <a class="ui red button" href="/delete/{{ todo.id }}">Delete</a>
         </div>
+
         {% endfor %}
+        <div>
+            <p>Total Page views: {{hits}}</p>
+
+        </div>
     </div>
 </body>
 
